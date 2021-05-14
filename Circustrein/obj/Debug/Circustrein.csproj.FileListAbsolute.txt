@@ -1,0 +1,20 @@
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.exe.config
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.exe
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.pdb
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csprojAssemblyReference.cache
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.Form1.resources
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.Properties.Resources.resources
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csproj.GenerateResource.cache
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csproj.CoreCompileInputs.cache
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.exe
+C:\Users\Nickv\OneDrive - Office 365 Fontys\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.pdb
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.exe.config
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.exe
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\bin\Debug\Circustrein.pdb
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csprojAssemblyReference.cache
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.Form1.resources
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.Properties.Resources.resources
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csproj.GenerateResource.cache
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.csproj.CoreCompileInputs.cache
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.exe
+C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Circustrein\obj\Debug\Circustrein.pdb

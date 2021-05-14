@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circustrein", "Circustrein.csproj", "{F9B4ADE5-FBEE-400E-9E0A-F8DD09C9C730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircustreinTest", "..\CircustreinTest\CircustreinTest.csproj", "{96A8B8EB-C1E4-4943-A6E9-E0DECDB96A0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9B4ADE5-FBEE-400E-9E0A-F8DD09C9C730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B4ADE5-FBEE-400E-9E0A-F8DD09C9C730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B4ADE5-FBEE-400E-9E0A-F8DD09C9C730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B4ADE5-FBEE-400E-9E0A-F8DD09C9C730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A8B8EB-C1E4-4943-A6E9-E0DECDB96A0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A8B8EB-C1E4-4943-A6E9-E0DECDB96A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A8B8EB-C1E4-4943-A6E9-E0DECDB96A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A8B8EB-C1E4-4943-A6E9-E0DECDB96A0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C27ACB3D-0BFC-4E96-A503-59605835DBC0}
+	EndGlobalSection
+EndGlobal

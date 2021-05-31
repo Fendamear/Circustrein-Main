@@ -24,7 +24,7 @@ namespace Circustrein
 
         public void AddAnimal(Animal animal)
         {
-            Animals.Add(animal);
+            Animals.Add(animal) throw new Exception("Melding")
         }
 
         public int CurrentRoomInWagon()
@@ -64,7 +64,6 @@ namespace Circustrein
             {
                 return true;
             }
-
         }
 
         //hier wordt gecheckt of een herbivoor dat toegevoegd gaat worden wordt opgegeten

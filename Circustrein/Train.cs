@@ -8,13 +8,13 @@ namespace Circustrein
 {
     public class Train
     {
-        private readonly List<Wagon> Wagons = new List<Wagon>();
+        private List<Wagon> Wagons = new List<Wagon>();
 
         public List<Wagon> CalcTrain(List<Animal> animals)
         {
             foreach (Animal animal in animals)
             {
-                if (!AddAnimalToWagon(animal))
+                if (!TryAddingAnimalToExistingWagon(animal))
                 {
                     AddWagon(animal);
                 }
@@ -22,7 +22,7 @@ namespace Circustrein
             return Wagons;
         }
 
-        private bool AddAnimalToWagon(Animal animal)
+        private bool TryAddingAnimalToExistingWagon(Animal animal)
         {
             foreach (Wagon wagon in Wagons)
             {

@@ -10,13 +10,18 @@ namespace Circustrein
     {
         private List<Wagon> Wagons = new List<Wagon>();
 
-        public List<Wagon> CalcTrain(List<Animal> animals)
+        public List<Wagon> CalculateTrain(List<Animal> animals)
         {
-            foreach (Animal animal in animals)
+            List<Animal> sortedAnimals = animals.OrderBy(x => x.Size)
+                .ToList();
+
+            foreach (Animal animal in sortedAnimals)
             {
                 if (!TryAddingAnimalToExistingWagon(animal))
                 {
-                    AddWagon(animal);
+                    Wagon wagon = new Wagon();
+                    wagon.AddAnimalToWagon(animal);
+                    Wagons.Add(wagon);
                 }
             }
             return Wagons;
@@ -26,18 +31,13 @@ namespace Circustrein
         {
             foreach (Wagon wagon in Wagons)
             {
-                if (wagon.IsThereRoomInWagon((int)animal.Size) && !wagon.CheckAnimals(animal))
+                if (wagon.IsThereRoomInWagon((int)animal.Size) && wagon.IsAnimalCompatibleInWagon(animal))
                 {
-                    wagon.AddAnimal(animal);
+                    wagon.AddAnimalToWagon(animal);
                     return true;
                 }
             }
             return false;
-        }
-
-        private void AddWagon(Animal animal)
-        {
-            Wagons.Add(new Wagon(animal));
         }
     }
 }

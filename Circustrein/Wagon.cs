@@ -11,9 +11,9 @@ namespace Circustrein
         private readonly List<Animal> Animals = new List<Animal>();
         private readonly int capacity = 10;
 
-        public Wagon(Animal animal)
+        public Wagon()
         {
-            AddAnimal(animal);
+            
         }
 
         public bool IsThereRoomInWagon(int size)
@@ -22,9 +22,16 @@ namespace Circustrein
             return CurrentRoomInWagon() + size <= capacity;
         }
 
-        public void AddAnimal(Animal animal)
+        public void AddAnimalToWagon(Animal animal)
         {
-            Animals.Add(animal) throw new Exception("Melding")
+            if (IsThereRoomInWagon((int)animal.Size) && IsAnimalCompatibleInWagon(animal))
+            {
+                Animals.Add(animal);
+            }
+            else
+            {
+                throw new Exception("Animal Cannot Be Added");
+            }           
         }
 
         public int CurrentRoomInWagon()
@@ -33,20 +40,20 @@ namespace Circustrein
             return Animals.Sum(animal => (int)animal.Size);
         }
 
-        public bool CheckAnimals(Animal testAnimal)
+        public bool IsAnimalCompatibleInWagon(Animal testAnimal)
         {
             foreach (Animal animal in Animals)
             {
                 if (animal.IsCarnivore)
                 {
-                    if (CarnEatsAnimal(animal, testAnimal)) return true;
+                    if (CarnEatsAnimal(animal, testAnimal)) return false;
                 }
                 else
                 {
-                    if (HerbGetsEaten(animal, testAnimal)) return true;
+                    if (HerbGetsEaten(animal, testAnimal)) return false;
                 }
             }
-            return false;
+            return true;
         }
 
         //hier wordt gecheckt of een carnivoor het dier opeet wat toegevoegd wil worden

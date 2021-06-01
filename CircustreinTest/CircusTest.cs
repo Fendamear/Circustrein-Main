@@ -18,8 +18,9 @@ namespace CircustreinTest
             Animal animal2 = new Animal("Skipper", false, Animal.Sizes.Big);
             Animal newAnimal = new Animal("Rico", false, Animal.Sizes.Big);
 
-            Wagon wagon = new Wagon(animal);
-            wagon.AddAnimal(animal2);
+            Wagon wagon = new Wagon();
+            wagon.AddAnimalToWagon(animal);
+            wagon.AddAnimalToWagon(animal2);
 
             //act
             bool result = wagon.IsThereRoomInWagon((int)newAnimal.Size);
@@ -37,8 +38,9 @@ namespace CircustreinTest
             Animal animal2 = new Animal("Skipper", false, Animal.Sizes.Small);
             Animal newAnimal = new Animal("Rico", false, Animal.Sizes.Small);
 
-            Wagon wagon = new Wagon(animal);
-            wagon.AddAnimal(animal2);
+            Wagon wagon = new Wagon();
+            wagon.AddAnimalToWagon(animal);
+            wagon.AddAnimalToWagon(animal2);
 
             //act
             bool result = wagon.IsThereRoomInWagon((int)newAnimal.Size);
@@ -55,7 +57,8 @@ namespace CircustreinTest
             Animal animal = new Animal("Alex de Leeuw", false, Animal.Sizes.Big);
 
             //act
-            Wagon wagon = new Wagon(animal);
+            Wagon wagon = new Wagon();
+            wagon.AddAnimalToWagon(animal);
 
             //Assert
             Assert.IsFalse(wagon.CurrentRoomInWagon() == 10);
@@ -73,7 +76,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Rico", true, Animal.Sizes.Small));
 
             //act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 3);
@@ -90,7 +93,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Rico", false, Animal.Sizes.Small));
 
             //act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 1);
@@ -105,7 +108,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Skipper", true, Animal.Sizes.Medium));
 
             //Act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 1);
@@ -120,7 +123,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Skipper", true, Animal.Sizes.Big));
 
             //Act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 2);
@@ -135,7 +138,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Skipper", false, Animal.Sizes.Medium));
 
             //Act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 2);
@@ -151,7 +154,7 @@ namespace CircustreinTest
             animals.Add(new Animal("Skipper", false, Animal.Sizes.Big));
 
             //Act
-            List<Wagon> result = train.CalcTrain(animals);
+            List<Wagon> result = train.CalculateTrain(animals);
 
             //assert
             Assert.IsTrue(result.Count == 1);

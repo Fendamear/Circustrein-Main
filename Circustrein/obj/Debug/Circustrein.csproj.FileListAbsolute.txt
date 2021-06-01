@@ -28,3 +28,13 @@ C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Main-c
 C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Main-circustrein\Circustrein\obj\Debug\Circustrein.csproj.CoreCompileInputs.cache
 C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Main-circustrein\Circustrein\obj\Debug\Circustrein.exe
 C:\Documents\School\Fontys ICT\Semester 2\Semester 2 software\Algoritmiek\Main-circustrein\Circustrein\obj\Debug\Circustrein.pdb
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\bin\Debug\Circustrein.exe.config
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\bin\Debug\Circustrein.exe
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\bin\Debug\Circustrein.pdb
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.csprojAssemblyReference.cache
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.Form1.resources
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.Properties.Resources.resources
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.csproj.GenerateResource.cache
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.csproj.CoreCompileInputs.cache
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.exe
+E:\Documenten\Sofware semester 2\Main-circustrein\Circustrein-Main\Circustrein\obj\Debug\Circustrein.pdb

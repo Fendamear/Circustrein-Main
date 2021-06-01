@@ -32,7 +32,7 @@ namespace Circustrein
 
         private void BtDeleteAnimal_Click(object sender, EventArgs e)
         {
-            removeAnimalFromList();
+            
         }
 
         private void AddAnimalToList()
@@ -66,7 +66,7 @@ namespace Circustrein
 
             Train train = new Train();
 
-            IEnumerable<Wagon> Wagons =  train.CalcTrain(Animals);
+            IEnumerable<Wagon> Wagons =  train.CalculateTrain(Animals);
 
             //int wagonnummer = 1;
 
@@ -86,13 +86,6 @@ namespace Circustrein
             //train.TestFunctie(Animals);
         }
 
-        private void removeAnimalFromList()
-        {
-            foreach (ListViewItem item in lvAnimals.SelectedItems)
-            {
-                lvAnimals.Items.Remove(item);
-            }
-        }
 
     }
 }
